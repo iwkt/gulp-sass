@@ -1,0 +1,5 @@
+// @use '../scss/Object/Project/hoge';
+// @use '../scss/Foundation/base';
+
+@forward "Foundation/*";
+@forward "Object/**";

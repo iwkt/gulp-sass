@@ -1,0 +1,10 @@
+@use "../../Foundation/mixin";
+body {
+  background-color: rgb(203, 194, 194);
+  @include mixin.mq() {
+    background-color: rgb(172, 189, 128);
+  }
+  @include mixin.mq("lg") {
+    background-color: rgb(213, 234, 61);
+  }
+}

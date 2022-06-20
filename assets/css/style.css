@@ -1,0 +1,18 @@
+.title {
+  color: rgba(255, 111, 0, 0.79);
+  font-size: 3rem;
+}
+
+body {
+  background-color: rgb(203, 194, 194);
+}
+@media screen and (min-width: 501px) {
+  body {
+    background-color: rgb(172, 189, 128);
+  }
+}
+@media screen and (min-width: 961px) {
+  body {
+    background-color: rgb(213, 234, 61);
+  }
+}
